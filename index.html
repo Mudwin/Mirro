@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="description"
+      content="I'm a photographer specializing in capturing the beauty of nature,
+      the joy of weddings, and the essence of portraits."
+    />
+    <meta
+      name="keyword"
+      content="photographer, wedding photography, portrait photography, james mirro, mirro, mirro photo, photo packs"
+    />
+    <meta name="Copyright" content="James Mirro" />
+    <meta property="og:locale" content="eng_ENG" />
+    <meta property="og:type" content="website" />
+    <meta property="pg:title" content="Mirro" />
+    <meta
+      property="og:description"
+      content="I'm a photographer specializing in capturing the beauty of nature,
+      the joy of weddings, and the essence of portraits."
+    />
+    <meta property="og:image" content="./images/preset_pack1.png" />
+    <meta property="og:url" content="#" />
+    <meta property="og:site_name" content="Mirro" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="James Mirro" />
+    <meta name="twitter:title" content="Mirro" />
+    <meta
+      name="twitter:description"
+      content="I'm a photographer specializing in capturing the beauty of nature,
+      the joy of weddings, and the essence of portraits."
+    />
+    <meta name="twitter:image" content="./images/preset_pack1.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="icon" href="./images/mirro_logo.svg" type="image/x-icon" />
+    <title>Mirro</title>
+  </head>
+  <body>
+    <div class="modal__root"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="#">
+            <img
+              src="./images/mirro_logo.svg"
+              alt="logo"
+              class="header__logo"
+            />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__links">
+              <li><a href="#" class="header__link">Presets</a></li>
+              <li><a href="#" class="header__link">Prints</a></li>
+              <li><a href="#" class="header__link">Store</a></li>
+              <li><a href="#" class="header__link">About</a></li>
+              <li><a href="#" class="header__link">Contact</a></li>
+            </ul>
+            <button class="header__cart">
+              <img src="./images/cart_icon.svg" alt="cart" />
+              Cart
+              <span class="header__cart-counter" id="counter">0</span>
+            </button>
+            <div class="header__cart-modal none">
+              <div class="header__cart-modal-inner">
+                <div class="header__cart-modal-close">
+                  <img src="./images/cross_icon.svg" alt="" />
+                </div>
+                <p class="header__cart-modal-text">
+                  There is nothing in here, yet
+                </p>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__radial-gradien-green"></div>
+      <div class="main__radial-gradien-orange"></div>
+      <div class="container">
+        <div class="main__content">
+          <div class="main__info">
+            <h1 class="main__heading">
+              Hi, I'm James Mirro & I'm a photographer.
+            </h1>
+            <p class="main__text">
+              I'm a photographer specializing in capturing the beauty of nature,
+              the joy of weddings, and the essence of portraits. With a keen eye
+              for detail and a passion for photography, I provide high-quality
+              images that preserve precious moments and create lasting memories.
+              Contact me for all your needs!
+            </p>
+            <button class="main__button">Read more</button>
+          </div>
+          <img
+            src="./images/header_img.webp"
+            class="main__img"
+            alt="My photo"
+          />
+        </div>
+      </div>
+    </main>
+    <section class="services">
+      <div class="services__radial-gradient-green"></div>
+      <div class="container">
+        <div class="services__content">
+          <img src="./images/waves_icon.svg" alt="waves" />
+
+          <h2 class="services__heading section__heading">Services</h2>
+          <p class="services__text section__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla.
+          </p>
+          <div class="services__photos">
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/wedding_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Wedding Photography</h3>
+              <p class="services__photos-text">
+                Wedding photography is often called the bread and butter of
+                photographers — but that doesn't mean it has to be boring. Quite
+                the opposite!
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/sports_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Sports Photography</h3>
+              <p class="services__photos-text">
+                Sports photography is awesome. Sitting on the sidelines with a
+                massive telephoto allows me to get right into the action — I
+                love shooting sports where there's a lot of explosive movement.
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/portrait_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Portrait Photography</h3>
+              <p class="services__photos-text">
+                Who doesn't love portrait photography? I love being able to
+                capture that expression, quirk, smile or whatever, that sort of
+                defines a person.
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/architecture_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Architecture Photography</h3>
+              <p class="services__photos-text">
+                The nice thing about shooting architecture (in my opinion) is
+                that it's so easy to do. Seriously, just pick up your camera and
+                get out there.
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/animal_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Animal Photography</h3>
+              <p class="services__photos-text">
+                Whenever I'm travelling I always make sure to pack gear that
+                allows me to capture the local wildlife. The eagle that takes
+                flight in this picture is probably my most prized image.
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/food_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Food Photography</h3>
+              <p class="services__photos-text">
+                I do food photography for blogs, restaurants, influencers,
+                YouTube channels — but most importantly (if I manage to cook
+                something that looks good) — I do food photography for myself.
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+            <article class="services__photos-item">
+              <div class="services__photos-icon">
+                <img src="./images/nature_icon.svg" alt="" />
+              </div>
+              <h3 class="section__subheading">Nature Photography</h3>
+              <p class="services__photos-text">
+                Landscape photography just never gets old. Someone told me that
+                those are the kinds of pictures you never look. Well, I don't
+                agree.
+              </p>
+              <a href="#" class="section__link">Read more</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="store">
+      <img
+        src="./images/slider_arrow.svg"
+        class="store__slider-arrow right-arrow"
+        alt=""
+      />
+      <img
+        src="./images/slider_arrow.svg"
+        class="store__slider-arrow left-arrow hidden"
+        alt=""
+      />
+      <div class="store__radial-gradient-orange"></div>
+      <div class="container">
+        <div class="store__content">
+          <img src="./images/waves_icon.svg" alt="" />
+          <h2 class="section__heading">Preset Store</h2>
+          <p class="section__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla.
+          </p>
+          <div class="store__slider-container">
+            <div class="store__packs slider-line">
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_1.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 01</h3>
+                  <p class="store__packs-text">
+                    The first volume is my go-to presets when shooting action
+                    sports. Just the right amount of contrast and highlights to
+                    make your photo (literally) pop!
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_2.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 02</h3>
+                  <p class="store__packs-text">
+                    Vol. 02 is dedicated solely to landscape photography. Pay
+                    attention to your exposure while out there and these presets
+                    will make your photos look great.
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_3.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 03</h3>
+                  <p class="store__packs-text">
+                    These are a collection of my most used wedding presets — use
+                    with caution as you'll end up loving wedding photography.
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_1.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 01</h3>
+                  <p class="store__packs-text">
+                    The first volume is my go-to presets when shooting action
+                    sports. Just the right amount of contrast and highlights to
+                    make your photo (literally) pop!
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_2.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 02</h3>
+                  <p class="store__packs-text">
+                    Vol. 02 is dedicated solely to landscape photography. Pay
+                    attention to your exposure while out there and these presets
+                    will make your photos look great.
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_3.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 03</h3>
+                  <p class="store__packs-text">
+                    These are a collection of my most used wedding presets — use
+                    with caution as you'll end up loving wedding photography.
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_1.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 01</h3>
+                  <p class="store__packs-text">
+                    The first volume is my go-to presets when shooting action
+                    sports. Just the right amount of contrast and highlights to
+                    make your photo (literally) pop!
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_2.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 02</h3>
+                  <p class="store__packs-text">
+                    Vol. 02 is dedicated solely to landscape photography. Pay
+                    attention to your exposure while out there and these presets
+                    will make your photos look great.
+                  </p>
+                </a>
+              </article>
+              <article class="store__packs-item">
+                <a href="#">
+                  <div class="store__packs-img">
+                    <img
+                      src="./images/preset_pack_3.png"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <h3 class="section__subheading">Mirro Preset Pack Vol. 03</h3>
+                  <p class="store__packs-text">
+                    These are a collection of my most used wedding presets — use
+                    with caution as you'll end up loving wedding photography.
+                  </p>
+                </a>
+              </article>
+            </div>
+          </div>
+          <a href="#" class="section__link">Preset store</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__radial-gradient-orange"></div>
+      <div class="container">
+        <div class="contact__content">
+          <h2 class="contact__text">
+            Want to work together? Follow the link and let's get in touch.
+          </h2>
+          <a href="#" class="contact__button">Contact</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <a href="#">
+              <img src="./images/mirro_footer_logo.svg" alt="logo" />
+            </a>
+          </div>
+          <div class="footer__info">
+            <div class="footer__links">
+              <div class="footer__item">
+                <h5 class="footer__subheading">pages</h5>
+                <a href="#" class="footer__link">Home</a>
+                <a href="#" class="footer__link">Store</a>
+                <a href="#" class="footer__link">About</a>
+                <a href="#" class="footer__link">Contact</a>
+              </div>
+              <div class="footer__item">
+                <h5 class="footer__subheading">present packs</h5>
+                <a href="#" class="footer__link">Mirro Preset Pack Vol. 01</a>
+                <a href="#" class="footer__link">Mirro Preset Pack Vol. 02</a>
+                <a href="#" class="footer__link">Mirro Preset Pack Vol. 03</a>
+                <a href="#" class="footer__link">Mirro Preset Pack Vol. 04</a>
+              </div>
+              <div class="footer__item">
+                <h5 class="footer__subheading">utility pages</h5>
+                <a href="#" class="footer__link">Instructions</a>
+                <a href="#" class="footer__link">Style guide</a>
+                <a href="#" class="footer__link">Licences</a>
+                <a href="#" class="footer__link">Changelog</a>
+                <a href="#" class="footer__link">404</a>
+              </div>
+              <div class="footer__item">
+                <h5 class="footer__subheading">store categories</h5>
+                <a href="#" class="footer__link">Presets</a>
+                <a href="#" class="footer__link">Prints</a>
+              </div>
+              <div class="footer__item">
+                <h5 class="footer__subheading">business areas</h5>
+                <a href="#" class="footer__link">Wedding Photography</a>
+                <a href="#" class="footer__link">Sports Photography</a>
+                <a href="#" class="footer__link">Portrait Photography</a>
+                <a href="#" class="footer__link">Architecture Photography</a>
+                <a href="#" class="footer__link">Animal Photography</a>
+                <a href="#" class="footer__link">Food Photography</a>
+                <a href="#" class="footer__link">Nature Photography</a>
+              </div>
+              <p class="footer__copyright">
+                © Mirro Photography, LLC. All rights reserved. Powered by
+                <span>Nilssen Co.</span>
+              </p>
+            </div>
+            <div class="footer__connect">
+              <div class="footer__newsletter">
+                <h5 class="footer__subheading">newsletter</h5>
+                <p class="footer__text">
+                  Subscribe to my newsletter where I share news about upcoming
+                  printings and preset sales.
+                </p>
+                <form action="#" name="email" id="form" method="post">
+                  <input
+                    type="text"
+                    placeholder="Email address"
+                    class="footer__input"
+                  />
+                  <button type="submit" class="footer__button">Submit</button>
+                  <p class="footer__error-message"></p>
+                </form>
+              </div>
+              <div class="footer__networks">
+                <a href="#">
+                  <img
+                    src="./images/linkedin_icon.svg"
+                    alt="linkedin"
+                    class="footer__network"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/facebook_icon.svg"
+                    alt="facebook"
+                    class="footer__network"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/instagram_icon.svg"
+                    alt="instagram"
+                    class="footer__network"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/twitter_icon.svg"
+                    alt="twitter"
+                    class="footer__network"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/cart.js" type="module"></script>
+    <script src="./scripts/slider.js" type="module"></script>
+    <script src="./scripts/form.js"></script>
+  </body>
+</html>
